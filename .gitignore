@@ -1,0 +1,39 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.pyo
+*.pyd
+
+# Local environment files
+.env
+.env.*
+
+# Private research data files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.pickle
+
+# Local output / editor artifacts
+*.log
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.docx
+*.pdf
+*.pptx
+.DS_Store
+.vscode/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
